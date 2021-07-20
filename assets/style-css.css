@@ -1,0 +1,163 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+  margin: 0px;
+  padding: 0px;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ .header {
+   text-align: center;
+   font-weight: bold;
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   display: inline;
+}
+
+.header-page {
+    font-size: 20px;
+    padding: 60px;
+    background:linear-gradient(135deg, #284866 0%,#233332 100%);
+    text-align: center;
+    color: white;
+}
+
+nav {
+  background-color: #2c6ab1;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+  margin-right: 0px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+/* IMAGE */
+.featured-image {
+  width: 100%;
+  max-height: 750px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-profile {
+  width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-sosmed {
+  width: 70px;
+  max-height: 70px;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 50px;
+  margin: 35px;
+  background-color: #f7f7f7;
+}
+
+/* flexbox */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.box {
+  min-height: 150px;
+  width:100%;
+  margin: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+  background-color: #2c6ab1
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   .aside-profile {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+@media screen and (min-width: 1200px){
+  .first {
+    width: 31%;
+  }
+  .second {
+    width: 31%;
+  }
+  .third {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+   .featured-image-index {
+       width: 100%;
+       padding: 0;
+   }
+}
